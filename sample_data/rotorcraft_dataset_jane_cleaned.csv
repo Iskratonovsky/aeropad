@@ -1,0 +1,226 @@
+Company,Helicopter,MTOW,Disc Loading,Cruising speed,Data Source,Type
+Aero Eli Serviza,Aero Eli Serviza Yo-Yo 222,495,10.74,172.0,Jane,Ultra-light/Very Light
+Aerokopter,Aerokopter AK1-3 Sanka,650,17.69,120.0,Jane,Ultra-light/Very Light
+Airbus Helicopters,H215/AS 532,9000,47.09,257.0,Jane,Medium
+Airbus Helicopters,AS 332L1 Super Puma MKI,8600,41.72,261.0,Jane,Medium
+Airbus Helicopters,H175,7800,45.34,278.0,Jane,Medium
+Airbus Helicopters,Tiger HAD,6600,49.72,271.0,Jane,Medium
+Airbus Helicopters,H155/EC 155,4920,39.46,270.0,Jane,Medium
+Airbus Helicopters,Eurocopter Panther/AS565,4500,40.19,278.0,Jane,Medium
+Airbus Helicopters,AS 365 Dauphin 2,4300,38.4,260.0,Jane,Medium
+Airbus Helicopters,H145/EC 145,3585,37.72,246.0,Jane,Medium
+Airbus Helicopters,H135/EC 135,2980,35.08,254.0,Jane,Intermediate
+Airbus Helicopters,AS355F2 Écureuil 2/AS 555 Fennec,2600,28.97,222.0,Jane,Intermediate
+Airbus Helicopters,H130/EC 130,2500,27.85,237.0,Jane,Intermediate
+Airbus Helicopters,H125 Ecureuil/Fennec,2250,25.07,256.0,Jane,Intermediate
+Airbus Helicopters,H120 Colibri,1715,21.84,191.0,Jane,Intermediate
+Airbus Helicopters,H225M/EC 225,11000,53.37,296.0,Jane,Medium
+Airbus Helicopters,Airbus Helicopters X6,700,17.19,220.0,Jane,Ultra-light/Very Light
+Bell Helicopter Textron,Bell AH-1Z/Viper449 SuperCobra,8391,49.92,254.0,Jane,Medium
+Bell Helicopter Textron,Bell UH-1Y,8391,49.92,284.0,Jane,Medium
+Boeing,Boeing AH-64D Apache,10433,62.06,265.0,Jane,Medium
+Dragon Fly Helicopters,DF334,600,17.02,169.0,Jane,Ultra-light/Very Light
+Egicopter,Egicopter MG-01,550,14.54,130.0,Jane,Ultra-light/Very Light
+Enstrom,Enstrom 480/TH-28,1361,18.23,202.0,Jane,Light
+Enstrom,Enstrom F-28F/280FX,1179,15.79,165.0,Jane,Light
+Famà,KISS 261M/E,700,15.03,185.0,Jane,Ultra-light/Very Light
+Heli-Sport,Heli-Sport CH77 Ranabot,500,16.14,159.0,Jane,Ultra-light/Very Light
+Hélicoptères Guimbal,Guimbal Cabri G2,700,4.3,145.0,Jane,Ultra-light/Very Light
+Kazan Helicopter Plant,Kazan Ansat,3600,34.66,240.0,Jane,Medium
+Konner Srl,Konner K1,450,12.39,220.0,Jane,Ultra-light/Very Light
+Leonardo,Leonardo AW101C,14600,53.79,278.0,Jane,Medium
+Leonardo,Leonardo AW149,8600,51.37,278.0,Jane,Medium
+Leonardo,Leonardo AW189,8300,49.58,278.0,Jane,Medium
+Leonardo,Leonardo AW139,6400,42.79,306.0,Jane,Medium
+Leonardo,Leonardo AW169,4800,35.1,278.0,Jane,Medium
+Leonardo,Leonardo AW109SP GrandNew,3175,34.47,287.0,Jane,Intermediate
+Leonardo,Leonardo AW109,2850,29.99,280.0,Jane,Intermediate
+Leonardo,Leonardo AW119 Koala Ke,2850,30.94,237.0,Jane,Intermediate
+Leonardo,Leonardo AW09,2650,28.09,259.0,Jane,Intermediate
+Marenco Swisshelicopter,SKYe SH09,2650,27.88,259.0,Jane,Intermediate
+MD Helicopters,MD 6XX,2495,45.24,259.0,Jane,Intermediate
+MD Helicopters,MD 530F,1406,25.8,243.0,Jane,Light
+MD Helicopters,MD 500E,1361,26.74,239.0,Jane,Light
+Mil Helicopters,Mil Mi-38,15600,44.61,285.0,Jane,Medium
+Mil Helicopters,Mil Mi-8,13000,36.52,240.0,Jane,Medium
+Mil Helicopters,Mil Mi-171A2,13000,36.52,260.0,Jane,Medium
+Mil Helicopters,Mil Mi-28N,11500,49.49,269.0,Jane,Medium
+Mil Helicopters,Mil Mi 35P,11200,47.65,319.0,Jane,Medium
+Mil Helicopters,Mil Mi 35M,10900,46.91,300.0,Jane,Medium
+PZL,PZL W-3 Sokół,6400,33.06,222.0,Jane,Medium
+PZL,PZL SW-4,1800,28.29,206.0,Jane,Intermediate
+Robinson Helicopter,Robinson R66,1225,15.41,226.0,Jane,Light
+Robinson Helicopter,Robinson R44 Raven II,1134,14.27,217.0,Jane,Light
+Robinson Helicopter,Robinson R44 Raven I,1089,13.7,209.0,Jane,Light
+Robinson Helicopter,Robinson R22 Beta II,621,13.44,178.0,Jane,Ultra-light/Very Light
+RotorWay International,RotorWay RW7,726,15.92,174.0,Jane,Ultra-light/Very Light
+RotorWay International,RotorWay A600 Talon,680,14.91,161.0,Jane,Ultra-light/Very Light
+Sikorsky Aircraft Corporation,Sikorsky S-92,12565,54.27,280.0,Jane,Medium
+Sikorsky Aircraft Corporation,Sikorsky UH-60 Black Hawk,10659,49.49,272.0,Jane,Medium
+Sikorsky Aircraft Corporation,Sikorsky S-76D,5386,37.91,287.0,Jane,Medium
+Skyline,SL-231 Scout,882,16.87,187.0,Jane,Light
+Turkish Aerospace Industries,TAI T-625,6050,30.59,278.0,Jane,Medium
+Turkish Aerospace Industries,T129,5000,44.96,268.0,Jane,Medium
+Vertical Aviation Technologies,300L Hummingbird,1270,15.98,161.0,Jane,Light
+Aero,Aero HC-2 Heli Baby,680,11.18,100.0,Open Source,Ultra-light/Very Light
+Aerotécnica,Aerotécnica AC-14,1350,18.46,150.0,Open Source,Light
+Aerotécnica,Aerotécnica AC-12,820,14.45,115.0,Open Source,Light
+Aerotécnica,Aerotécnica AC-11,765,13.48,115.0,Open Source,Light
+Agusta,Agusta AZ.101G,12900,39.47,201.0,Open Source,Medium
+Agusta,Agusta A129 Mangusta,4600,42.79,229.0,Open Source,Medium
+Agusta,Agusta AB.102,3025,18.32,160.0,Open Source,Intermediate
+Agusta,Agusta A109,2850,29.99,285.0,Open Source,Intermediate
+Agusta,Agusta A119 Koala,2850,30.94,244.0,Open Source,Intermediate
+Agusta,Agusta A106,1400,19.75,167.0,Open Source,Light
+Agusta,Agusta A115,1350,13.39,150.0,Open Source,Light
+Agusta,Agusta A105,1150,20.75,175.0,Open Source,Light
+Agusta,Agusta A104 Helicar,640,12.89,135.0,Open Source,Ultra-light/Very Light
+Agusta,Agusta A103,460,10.7,135.0,Open Source,Ultra-light/Very Light
+Airbus Helicopters,Aérospatiale Super Frelon,13000,46.34,249.0,Open Source,Medium
+Airbus Helicopters,Aérospatiale SA-330 Puma,7000,39.61,248.0,Open Source,Medium
+Airbus Helicopters,H160,6050,42.9,296.0,Open Source,Medium
+Airbus Helicopters,Eurocopter UH-72A Lakota,3585,37.72,246.0,Open Source,Medium
+Airbus Helicopters,H140,3175,34.66,241.0,Open Source,Intermediate
+Airbus Helicopters,Aérospatiale SA 360 Dauphin,3000,28.88,274.0,Open Source,Intermediate
+Airbus Helicopters,Eurocopter EC 635,2835,34.69,254.0,Open Source,Intermediate
+Airbus Helicopters,Aérospatiale SA 315B Lama,2300,24.11,191.0,Open Source,Intermediate
+Airbus Helicopters,Aérospatiale Alouette III,2200,22.33,185.0,Open Source,Intermediate
+Airbus Helicopters,Aérospatiale Gazelle,1800,20.79,264.0,Open Source,Intermediate
+Airbus Helicopters,Aérospatiale Alouette II,1600,19.58,170.0,Open Source,Light
+Airbus Helicopters,Airbus Helicopters VSR700,700,17.19,220.0,Open Source,Ultra-light/Very Light
+American Aircraft International,AAI Penetrator,3856,22.63,230.0,Open Source,Medium
+Aviaimpex,Aviaimpex Angel,870,16.16,165.0,Open Source,Light
+Avicopter,Avicopter AC313,13000,46.34,247.0,Open Source,Medium
+Avicopter,Avicopter AC332,3850,26.12,260.0,Open Source,Medium
+Bell Helicopter Textron,Bell 214ST,7938,40.18,259.0,Open Source,Medium
+Bell Helicopter Textron,Bell 214,6804,38.5,260.0,Open Source,Medium
+Bell Helicopter Textron,Bell 309 King Cobra,6804,38.5,257.0,Open Source,Medium
+Bell Helicopter Textron,Bell 409/YAH-63,6690,37.86,226.0,Open Source,Medium
+Bell Helicopter Textron,Bell 427,2971,29.73,256.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell 412,5897,38.2,226.0,Open Source,Medium
+Bell Helicopter Textron,Bell CH-146 Griffon,5398,34.97,219.0,Open Source,Medium
+Bell Helicopter Textron,Bell 212,5080,30.18,195.0,Open Source,Medium
+Bell Helicopter Textron,Bell UH-1H3 (StandardAero),5080,29.85,128.0,Open Source,Medium
+Bell Helicopter Textron,Bell UH-1N,4763,28.33,200.0,Open Source,Medium
+Bell Helicopter Textron,Bell AH-1W Super Cobra,4536,32.21,282.0,Open Source,Medium
+Bell Helicopter Textron,Bell 204/205,4309,24.38,206.0,Open Source,Medium
+Bell Helicopter Textron,Bell AH-1G Cobra,4309,30.55,276.0,Open Source,Medium
+Bell Helicopter Textron,Bell UH-1H,4309,25.32,190.0,Open Source,Medium
+Bell Helicopter Textron,Bell 430,4200,31.64,247.0,Open Source,Medium
+Bell Helicopter Textron,Bell 230,3800,28.63,248.0,Open Source,Medium
+Bell Helicopter Textron,Bell 222,3742,32.43,220.0,Open Source,Medium
+Bell Helicopter Textron,Bell 429,3629,38.33,239.0,Open Source,Medium
+Bell Helicopter Textron,Bell 427,2971,29.73,256.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell 48/H-12,2851,17.31,140.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell 407,2722,30.5,213.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell OH-58 Kiowa,2495,27.85,204.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell ARH-70 Arapaho,2268,25.36,209.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell 505,1699,17.0,232.0,Open Source,Intermediate
+Bell Helicopter Textron,Bell 206B,1451,17.9,220.0,Open Source,Light
+Bell Helicopter Textron,Bell 47,1338,13.27,135.0,Open Source,Light
+Bell Helicopter Textron,Bell 47J,1338,13.27,146.0,Open Source,Light
+Bell Helicopter Textron,Bell UH-13R,1338,13.27,169.0,Open Source,Light
+Bell Helicopter Textron,Bell YOH-4,1151,14.28,178.0,Open Source,Light
+Boeing,Boeing Vertol YUH-61,8481,47.99,216.0,Open Source,Medium
+Boeing,Boeing–Sikorsky RAH-66 Comanche,7896,52.03,306.0,Open Source,Medium
+Boeing,Boeing MH-139 Grey Wolf,7000,46.8,270.0,Open Source,Medium
+Boeing,Boeing A160 Hummingbird,2948,31.02,260.0,Open Source,Intermediate
+Boeing,Boeing AH-6,1610,29.47,250.0,Open Source,Intermediate
+Brantly,Brantly 305,1315,21.92,180.0,Open Source,Light
+Bristol Aeroplane Company,Bristol Sycamore,2540,14.76,145.0,Open Source,Intermediate
+CH International (CHi International),Composite CHI KC 518 Adventourer,1542,24.14,250.0,Open Source,Light
+Changhe Aircraft Industries Corporation (CAIC),WZ-10,7200,54.24,230.0,Open Source,Medium
+Changhe Aircraft Industries Corporation (CAIC),Changhe Z11,2250,25.07,258.0,Open Source,Intermediate
+Cicaré Helicópteros S.A.,Cicaré CH-7,450,14.91,160.0,Open Source,Ultra-light/Very Light
+Cicaré Helicópteros S.A.,Cicaré CH-14 Aguilucho,1450,18.46,210.0,Open Source,Light
+Citroën,Citroën RE-2,950,20.94,175.0,Open Source,Light
+Curti Aerospace,Curti Zefhir,699,15.41,161.12,Open Source,Ultra-light/Very Light
+Denel Aeronautics/Atlas Aircraft Corporation,Denel Oryx,8000,41.86,260.0,Open Source,Medium
+Denel Aeronautics/Atlas Aircraft Corporation,Denel XH-1 Alpha,2200,23.07,185.0,Open Source,Intermediate
+Denel Aviation,Denel Rooivalk,8750,45.9,278.0,Open Source,Medium
+Doman,Doman LZ-5,2359,13.35,159.0,Open Source,Intermediate
+Dynali Helicopter,Dynali H2S,700,17.1,150.0,Open Source,Ultra-light/Very Light
+Dynali Helicopter,Dynali H3 Easyflyer,500,12.49,130.0,Open Source,Ultra-light/Very Light
+Fairchild Hiller,Fairchild Hiller FH-1100,1247,13.61,196.0,Open Source,Light
+Harbin Aircraft Manufacturing Corporation,Harbin Z-20,10000,49.74,290.0,Open Source,Medium
+Harbin Aircraft Manufacturing Corporation,Harbin Z-5,7600,21.94,192.0,Open Source,Medium
+Harbin Aircraft Manufacturing Corporation,Harbin Z-19,4250,38.02,245.0,Open Source,Medium
+Harbin Aircraft Manufacturing Corporation,Harbin Z-9,4100,36.62,260.0,Open Source,Medium
+Helowerks,Helowerks HX-1 Wasp,544,14.1,130.0,Open Source,Ultra-light/Very Light
+Higgins,Higgins EB-1,1155,15.47,200.0,Open Source,Light
+Hillberg Helicopters,Hillberg Turbine Exec,674,14.78,209.0,Open Source,Ultra-light/Very Light
+Hillberg Helicopters,Hillberg EH1-01 RotorMouse,590,20.19,210.0,Open Source,Ultra-light/Very Light
+Hiller Aircraft Corporation,Hiller Ten99,1588,17.14,170.0,Open Source,Light
+Hiller Aircraft Corporation,Hiller UH-12/OH-23,1225,13.37,132.0,Open Source,Light
+Hindustan Aeronautics Limited,HAL Dhruv,5800,42.38,250.0,Open Source,Medium
+Hindustan Aeronautics Limited,HAL Prachand,5800,42.38,260.0,Open Source,Medium
+Hindustan Aeronautics Limited,HAL Light Utility Helicopter,3150,29.81,235.0,Open Source,Intermediate
+Hindustan Aeronautics Limited,HAL Cheetah/SA 315B Lama,1950,20.44,192.0,Open Source,Intermediate
+Hughes Helicopters,OH-6 Cayuse,1225,24.19,215.0,Open Source,Light
+Hughes Helicopters,TH-55 Osage,757,16.26,130.0,Open Source,Light
+Hungaro Copter Limited,Hungaro Copter,600,15.59,130.0,Open Source,Ultra-light/Very Light
+Industria Aeronautică Română,IAR 330,7400,41.88,271.0,Open Source,Medium
+Industria Aeronautică Română,IAR 316,2200,23.07,180.0,Open Source,Intermediate
+Kaman Aircraft,Kaman SH-2 Seasprite,5670,40.15,240.0,Open Source,Medium
+Kamov,Kamov Ka-60,6500,45.41,290.0,Open Source,Medium
+Kawasaki Heavy Industries,Kawasaki OH-1,4000,37.85,220.0,Open Source,Medium
+Kawasaki Heavy Industries,Kawasaki KH-4,1293,12.85,140.0,Open Source,Light
+Lada Land,Lada Land VM-01,830,13.05,140.0,Open Source,Light
+Leonardo,Leonardo CH-149 Cormorant,14600,53.79,280.0,Open Source,Medium
+Leonardo,Leonardo Proteus,3000,31.57,300.0,Open Source,Intermediate
+Lockheed,Lockheed Martin VH-71 Kestrel,15600,57.47,278.0,Open Source,Medium
+Lockheed,Lockheed AH-56 Cheyenne,11739,61.26,361.0,Open Source,Medium
+Lockheed,Lockheed XH-51,1860,20.8,260.0,Open Source,Intermediate
+MD Helicopters,MH-6 Little Bird,1406,25.66,250.0,Open Source,Light
+MD Helicopters,MD 500/530 Defender,1157,22.76,217.0,Open Source,Light
+Merckle Flugzeugbau,Merckle SM 67,1700,19.63,190.0,Open Source,Intermediate
+Messerschmitt-Bölkow-Blohm,MBB/Kawasaki BK 117,3350,35.25,250.0,Open Source,Medium
+Messerschmitt-Bölkow-Blohm,MBB Bo 105,2500,32.22,204.0,Open Source,Intermediate
+Messerschmitt-Bölkow-Blohm,Bölkow Bo 46,2000,25.46,256.0,Open Source,Intermediate
+Mil Helicopters,Mil Mi-14,14000,39.33,215.0,Open Source,Medium
+Mil Helicopters,Mil Mi-24/25/35,12000,51.05,260.0,Open Source,Medium
+Mil Helicopters,Mil Mi-4,7550,21.8,160.0,Open Source,Medium
+Mil Helicopters,Mil Mi-34S,1450,18.46,170.0,Open Source,Light
+Mil Helicopters,Mil Mi-2,3700,22.41,185.0,Open Source,Medium
+Mil Helicopters,Mil Mi-1,2460,15.21,140.0,Open Source,Intermediate
+Mitsubishi Heavy Industries,Mitsubishi MH2000,4500,38.49,250.0,Open Source,Medium
+NHIndustries,NHI NH90,10600,50.8,259.0,Open Source,Medium
+Northrop Grumman,MQ-8B Fire Scout,1430,25.8,200.0,Open Source,Light
+PANHA,Panha 2091,4530,34.13,153.0,Open Source,Medium
+PZL,PZL SM-4 Latka,1000,12.73,115.0,Open Source,Light
+PZL,PZL Kania,3550,21.33,178.0,Open Source,Medium
+RotorWay International,RotorWay Exec 162F,680,14.91,153.0,Open Source,Ultra-light/Very Light
+Saunders Roe,Saro P.531,1724,22.35,175.0,Open Source,Intermediate
+Saunders Roe,Saro Skeeter,1043,13.97,171.0,Open Source,Light
+Scheutzow,Scheutzow B,544,10.23,121.0,Open Source,Ultra-light/Very Light
+Schweizer Aircraft Corporation,Schweizer 330/333,1157,20.98,194.0,Open Source,Light
+Schweizer Aircraft Corporation,Schweizer 300,930,17.7,124.0,Open Source,Light
+Sikorsky Aircraft Corporation,Sikorsky CH-37 Mojave,14061,37.16,190.0,Open Source,Medium
+Sikorsky Aircraft Corporation,CH-148 Cyclone,13000,54.17,254.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky S-67 Blackhawk,10002,35.65,220.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky S-70i,9979,47.47,276.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky HH-60 Pave Hawk,9979,49.32,294.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky SH-60 Seahawk,9926,47.22,234.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky MH-60 Jayhawk,9926,47.22,234.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky UH-3 Sea King,9752,34.76,219.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky S-60,9525,25.13,185.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky H-34 (S-58),6033,26.36,156.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky S-75,3842,28.95,256.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky HH-52 Seaguard (S-62),3765,18.36,158.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky H-19 (S-55),3402,16.92,137.0,Open Source,Medium
+Sikorsky Aircraft Corporation,Sikorsky R-5/H-5,2200,13.09,130.0,Open Source,Intermediate
+Sikorsky Aircraft Corporation,Sikorsky XH-39,1525,17.05,222.0,Open Source,Light
+Sikorsky Aircraft Corporation,Sikorsky S-434,1451,26.31,195.0,Open Source,Light
+Sikorsky Aircraft Corporation,Sikorsky S-52,1225,15.41,154.0,Open Source,Light
+Sikorsky Aircraft Corporation,Sikorsky R-4,1200,10.61,105.0,Open Source,Light
+Silvercraft Italiana,Silvercraft SH-4,862,13.46,117.0,Open Source,Light
+Westland Helicopters,Westland Westminter,14969,39.56,185.0,Open Source,Medium
+Westland Helicopters,Westland Wessex,6123,26.76,196.0,Open Source,Medium
+Westland Helicopters,Westland 30,5806,41.73,220.0,Open Source,Medium
+Westland Helicopters,Westland Lynx,4763,37.01,232.0,Open Source,Medium
+Westland Helicopters,Westland Whirldwind,3538,17.27,167.0,Open Source,Medium
+Westland Helicopters,Westland Widgeon,2676,15.16,130.0,Open Source,Intermediate
+Westland Helicopters,Westland Dragonfly,2663,15.07,137.0,Open Source,Intermediate
+Westland Helicopters,Westland Wasp,2495,32.88,178.0,Open Source,Intermediate
+Westland Helicopters,Westland Scout,2404,31.68,196.0,Open Source,Intermediate
+Youngcopter,Youngcopter Neo,640,13.74,185.0,Open Source,Ultra-light/Very Light

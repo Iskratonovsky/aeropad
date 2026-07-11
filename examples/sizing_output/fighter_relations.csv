@@ -1,0 +1,4 @@
+family,target,features,best_params,n_train,n_test,R2_train,R2_test,RMSE_test,MAE_test,MaxErr_test,pearson_r_test,equation
+power_law,Thrust_kN,MTOW_kg | MaxSpeed_kmh,{},46,20,0.9456097746087404,0.8402078340436216,38.28199649256367,28.424104435845152,87.92121296648946,0.9353363475955381,Thrust_kN = 2.955e-05 * MTOW_kg^1.061 * MaxSpeed_kmh^0.6253
+polynomial,Thrust_kN,MTOW_kg | MaxSpeed_kmh,{'poly__degree': np.int64(1)},46,20,0.9409007841515926,0.9170613072873102,27.580074196478957,22.45162797129688,52.61540168751944,0.9607513568208159,Thrust_kN = 120.5 + (66.93)*z(MTOW_kg) + (8.703)*z(MaxSpeed_kmh)
+gpr,Thrust_kN,MTOW_kg | MaxSpeed_kmh,{'gpr__kernel': 1**2 * RBF(length_scale=10) + WhiteKernel(noise_level=1)},46,20,0.9466273090839732,0.8951769824852361,31.005958833133676,24.66315543986902,67.92875928685672,0.9528280876422868,(implicit model)

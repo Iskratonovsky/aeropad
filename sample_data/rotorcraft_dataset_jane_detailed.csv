@@ -1,0 +1,278 @@
+Company,Helicopter,MTOW (kg),Main rotor radius (m),Disc loading (kg/m2),Cruising speed (km/h),Cruise speed type,Tail No. Blades,Position of Tail rotor (look from the back),Data Source
+Aero Eli Serviza,Aero Eli Serviza Yo-Yo 222,495,3.83,10.74,172,Normal/Econ,2,left,Jane
+Aerokopter,Aerokopter AK1-3 Sanka,650,3.42,17.69,120,Normal/Econ,2,right,Jane
+Airbus Helicopters,H215/AS 532,9000,7.8,47.09,257,Normal/Econ,5,right,Jane
+Airbus Helicopters,AS 332L1 Super Puma MKI,8600,8.1,41.72,261,Normal/Econ,5,left,Jane
+Airbus Helicopters,H175,7800,7.4,45.34,278,Normal/Econ,3,left,Jane
+Airbus Helicopters,Tiger HAD,6600,6.5,49.72,271,Normal/Econ,3,right,Jane
+Airbus Helicopters,H155/EC 155,4920,6.3,39.46,270,Normal/Econ,8,fenestron,Jane
+Airbus Helicopters,Eurocopter Panther/AS565,4500,5.97,40.19,278,Normal/Econ,11,fenestron,Jane
+Airbus Helicopters,AS 365 Dauphin 2,4300,5.97,38.4,260,Normal/Econ,11,fenestron,Jane
+Airbus Helicopters,H145/EC 145,3585,5.5,37.72,246,Normal/Econ,10,fenestron,Jane
+Airbus Helicopters,H135/EC 135,2980,5.2,35.08,254,Normal/Econ,8,fenestron,Jane
+Airbus Helicopters,AS355F2 Écureuil 2/AS 555 Fennec,2600,5.345,28.97,222,Normal/Econ,2,right,Jane
+Airbus Helicopters,H130/EC 130,2500,5.345,27.85,237,Normal/Econ,8,fenestron,Jane
+Airbus Helicopters,H125 Ecureuil/Fennec,2250,5.345,25.07,256,Normal/Econ,2,right,Jane
+Airbus Helicopters,H120 Colibri,1715,5,21.84,191,Normal/Econ,8,fenestron,Jane
+Airbus Helicopters,H225M/EC 225,11000,8.1,53.37,296,Normal/Econ,4,right,Jane
+Airbus Helicopters,Airbus Helicopters X6,700,Z3.6,17.19,220,Normal/Econ,7,fenestron,Jane
+Alpiaviation,Syton AH 130,450,3.815,9.84,191,Max,2,right,Jane
+Bell Helicopter Textron,Bell 525,9299,8.305,42.91,300,Max,4,right,Jane
+Bell Helicopter Textron,Bell AH-1Z/Viper449 SuperCobra,8391,7.315,49.92,254,Normal/Econ,4,left,Jane
+Bell Helicopter Textron,Bell UH-1Y,8391,7.315,49.92,284,Normal/Econ,4,left,Jane
+Boeing,Boeing AH-64D Apache,10433,7.315,62.06,265,Normal/Econ,4,left,Jane
+Dragon Fly Helicopters,DF334,600,3.35,17.02,169,Normal/Econ,2,right,Jane
+Eagle,Helicycle,386,3.175,12.19,154,Max,2,left,Jane
+Egicopter,Egicopter MG-01,550,3.47,14.54,130,Normal/Econ,2,right,Jane
+Enstrom,Enstrom 480/TH-28,1361,4.875,18.23,202,Normal/Econ,2,left,Jane
+Enstrom,Enstrom F-28F/280FX,1179,4.875,15.79,165,Normal/Econ,2,right,Jane
+Famà,KISS 261M/E,700,3.85,15.03,185,Normal/Econ,2,right,Jane
+Heli-Sport,Heli-Sport CH-7 Angel,450,3.14,14.53,159,Max,2,left,Jane
+Heli-Sport,Heli-Sport CH77 Ranabot,500,3.14,16.14,159,Normal/Econ,2,left,Jane
+Hélicoptères Guimbal,Guimbal Cabri G2,700,7.2,4.3,145,Normal/Econ,7,fenestron,Jane
+HeliWhale,Aafalina,500,3.5,6.5,200,Normal/Econ,0,coaxial,Jane
+IHSRC,Saba-248,1337,5.625,13.45,180,Max,2,left,Jane
+Kaman Aircraft,Kaman K1200 K-Max,2948,7.365,16,148,Max,0,Intermeshing,Jane
+Kamov,Kamov Ka-27/28/29/32,11000,7.95,27.7,230,Max,0,coaxial,Jane
+Kamov,Kamov Ka-52,12200,7.25,36.94,250,Normal/Econ,0,coaxial,Jane
+Kamov,Kamov Ka-50,10800,7.25,32.7,270,Normal/Econ,0,coaxial,Jane
+Kamov,Kamov Ka-62,6500,6.9,21.73,291,Normal/Econ,0,coaxial,Jane
+Kamov,Kamov Ka-226T,3600,7.5,10.19,220,Normal/Econ,0,coaxial,Jane
+Kazan Helicopter Plant,Kazan Ansat,3600,5.75,34.66,240,Normal/Econ,2,right,Jane
+Konner Srl,Konner K2,1000,3.85,21.47,241,Max,2,right,Jane
+Konner Srl,Konner Coaxial,1300,3.6,15.96,250,Max,0,coaxial,Jane
+Konner Srl,Konner K1,450,3.4,12.39,220,Normal/Econ,2,right,Jane
+LCA,LH 212 Delta,540,3.375,15.09,167,Max,2,right,Jane
+Leonardo,Leonardo AW159,6000,6.4,46.63,264,Max,4,left,Jane
+Leonardo,Leonardo AW101C,14600,9.295,53.79,278,Normal/Econ,,left,Jane
+Leonardo,Leonardo AW149,8600,7.3,51.37,278,Normal/Econ,4,right,Jane
+Leonardo,Leonardo AW189,8300,7.3,49.58,278,Normal/Econ,4,right,Jane
+Leonardo,Leonardo AW139,6400,6.9,42.79,306,Normal/Econ,4,right,Jane
+Leonardo,Leonardo AW169,4800,6.06,35.1,278,Normal/Econ,3,right,Jane
+Leonardo,Leonardo AW109SP GrandNew,3175,5.415,34.47,287,Normal/Econ,2,left,Jane
+Leonardo,Leonardo AW109,2850,5.5,29.99,280,Normal/Econ,2,left,Jane
+Leonardo,Leonardo AW119 Koala Ke,2850,5.415,30.94,237,Normal/Econ,2,left,Jane
+Leonardo,Leonardo AW09,2650,5.48,28.09,259,Normal/Econ,10,fenestron,Jane
+Marenco Swisshelicopter,SKYe SH09,2650,5.5,27.88,259,Normal/Econ,10,fenestron,Jane
+MD Helicopters,MD 520N,1520,4.165,27.89,228,Max,0,notar,Jane
+MD Helicopters,MD 600N Notar,1860,4.19,33.72,248,Max,0,notar,Jane
+MD Helicopters,MD Explorer,3071,5.155,36.79,185,Max,0,notar,Jane
+MD Helicopters,MD 6XX,2495,4.19,45.24,259,Normal/Econ,4,left,Jane
+MD Helicopters,MD 530F,1406,4.165,25.8,243,Normal/Econ,2,left,Jane
+MD Helicopters,MD 500E,1361,4.025,26.74,239,Normal/Econ,2,left,Jane
+Mil Helicopters,Mil Mi-26,56000,16,69.63,244,Normal/Econ,5,right,Jane
+Mil Helicopters,Mil Mi-38,15600,10.55,44.61,285,Normal/Econ,4,right,Jane
+Mil Helicopters,Mil Mi-8,13000,10.645,36.52,240,Normal/Econ,3,right,Jane
+Mil Helicopters,Mil Mi-171A2,13000,10.645,36.52,260,Normal/Econ,3,right,Jane
+Mil Helicopters,Mil Mi-28N,11500,8.6,49.49,269,Normal/Econ,4,right,Jane
+Mil Helicopters,Mil Mi 35P,11200,8.65,47.65,319,Normal/Econ,3,left,Jane
+Mil Helicopters,Mil Mi 35M,10900,8.6,46.91,300,Normal/Econ,4,left,Jane
+PZL,PZL W-3 Sokół,6400,7.85,33.06,222,Normal/Econ,3,right,Jane
+PZL,PZL SW-4,1800,4.5,28.29,206,Normal/Econ,2,right,Jane
+Robinson Helicopter,Robinson R66,1225,5.03,15.41,226,Normal/Econ,2,left,Jane
+Robinson Helicopter,Robinson R44 Raven II,1134,5.03,14.27,217,Normal/Econ,2,left,Jane
+Robinson Helicopter,Robinson R44 Raven I,1089,5.03,13.7,209,Normal/Econ,2,left,Jane
+Robinson Helicopter,Robinson R22 Beta II,621,3.835,13.44,178,Normal/Econ,2,left,Jane
+Rotorfly,R-33 Orlenok,500,3,8.84,141,Normal/Econ,0,coaxial,Jane
+RotorWay International,RotorWay RW7,726,3.81,15.92,174,Normal/Econ,2,right,Jane
+RotorWay International,RotorWay A600 Talon,680,3.81,14.91,161,Normal/Econ,2,right,Jane
+Safari CHR,Safari 400,748,4.015,14.77,137,Max,2,right,Jane
+Shaed Aviation Industries Research Center,HESA Shahed 278,1450,5.08,17.89,200,Max,2,left,Jane
+Shaed Aviation Industries Research Center,HESA Shahed 285,1450,5.08,17.89,200,Max,2,left,Jane
+Shaed Aviation Industries Research Center,HESA Shahed 216,7470,7.62,40.95,225,Max,2,right,Jane
+Sikorsky Aircraft Corporation,Sikorsky CH-53K King Stallion,33566,12.04,73.7,315,Max,4,left,Jane
+Sikorsky Aircraft Corporation,Sikorsky S-92,12565,8.585,54.27,280,Normal/Econ,4,right,Jane
+Sikorsky Aircraft Corporation,Sikorsky UH-60 Black Hawk,10659,8.28,49.49,272,Normal/Econ,4,right,Jane
+Sikorsky Aircraft Corporation,Sikorsky S-76D,5386,6.725,37.91,287,Normal/Econ,4,left,Jane
+Sikorsky Aircraft Corporation,Sikorsky S-97 Raider,4990,5.03,31.39,410,Normal/Econ,0,coaxial,Jane
+Skyline,SL-231 Scout,882,4.08,16.87,187,Normal/Econ,2,right,Jane
+Softeks,VV-2,1100,4.25,19.38,241,Max,2,left,Jane
+Swiss Kopter Technology,SKT SkyRider 06,600,3.5,15.59,157,Max,2,left,Jane
+Turkish Aerospace Industries,TAI T-625,6050,7.935,30.59,278,Normal/Econ,4,right,Jane
+Turkish Aerospace Industries,T129,5000,5.95,44.96,268,Normal/Econ,2,left,Jane
+Vertical Aviation Technologies,300L Hummingbird,1270,5.03,15.98,161,Normal/Econ,2,left,Jane
+Aero,Aero HC-2 Heli Baby,680,4.4,11.18,100,Normal/Econ,2,left,Open Source
+Aerotécnica,Aerotécnica AC-14,1350,4.825,18.46,150,Normal/Econ,0,notar,Open Source
+Aerotécnica,Aerotécnica AC-12,820,4.25,14.45,115,Normal/Econ,3,right,Open Source
+Aerotécnica,Aerotécnica AC-11,765,4.25,13.48,115,Normal/Econ,3,right,Open Source
+Agusta,Agusta AZ.101G,12900,10.2,39.47,201,Normal/Econ,6,left,Open Source
+Agusta,Agusta A129 Mangusta,4600,5.85,42.79,229,Normal/Econ,2,left,Open Source
+Agusta,Agusta AB.102,3025,7.25,18.32,160,Normal/Econ,2,left,Open Source
+Agusta,Agusta A109,2850,5.5,29.99,285,Normal/Econ,2,left,Open Source
+Agusta,Agusta A119 Koala,2850,5.415,30.94,244,Normal/Econ,2,left,Open Source
+Agusta,Agusta A106,1400,4.75,19.75,167,Normal/Econ,2,left,Open Source
+Agusta,Agusta A115,1350,5.665,13.39,150,Normal/Econ,2,left,Open Source
+Agusta,Agusta A105,1150,4.2,20.75,175,Normal/Econ,2,right,Open Source
+Agusta,Agusta A104 Helicar,640,3.975,12.89,135,Normal/Econ,2,left,Open Source
+Agusta,Agusta A103,460,3.7,10.7,135,Normal/Econ,2,right,Open Source
+Airbus Helicopters,Aérospatiale Super Frelon,13000,9.45,46.34,249,Normal/Econ,5,right,Open Source
+Airbus Helicopters,Aérospatiale SA-330 Puma,7000,7.5,39.61,248,Normal/Econ,5,right,Open Source
+Airbus Helicopters,H160,6050,6.7,42.9,296,Normal/Econ,12,fenestron,Open Source
+Airbus Helicopters,Eurocopter UH-72A Lakota,3585,5.5,37.72,246,Normal/Econ,2,left,Open Source
+Airbus Helicopters,H140,3175,5.4,34.66,241,Normal/Econ,10,fenestron,Open Source
+Airbus Helicopters,Aérospatiale SA 360 Dauphin,3000,5.75,28.88,274,Normal/Econ,13,fenestron,Open Source
+Airbus Helicopters,Eurocopter EC 635,2835,5.1,34.69,254,Normal/Econ,8,fenestron,Open Source
+Airbus Helicopters,Aérospatiale SA 315B Lama,2300,5.51,24.11,191,Normal/Econ,3,right,Open Source
+Airbus Helicopters,Aérospatiale Alouette III,2200,5.6,22.33,185,Normal/Econ,3,right,Open Source
+Airbus Helicopters,Aérospatiale Gazelle,1800,5.25,20.79,264,Normal/Econ,3,fenestron,Open Source
+Airbus Helicopters,Aérospatiale Alouette II,1600,5.1,19.58,170,Normal/Econ,2,left,Open Source
+Airbus Helicopters,Airbus Helicopters VSR700,700,3.6,17.19,220,Normal/Econ,7,fenestron,Open Source
+American Aircraft International,AAI Penetrator,3856,7.365,22.63,230,Normal/Econ,2,left,Open Source
+Aviaimpex,Aviaimpex Angel,870,4.14,16.16,165,Normal/Econ,2,right,Open Source
+Avicopter,Avicopter AC313,13000,9.45,46.34,247,Normal/Econ,5,left,Open Source
+Avicopter,Avicopter AC332,3850,6.85,26.12,260,Normal/Econ,10,fenestron,Open Source
+Bell Helicopter Textron,Bell 214ST,7938,7.93,40.18,259,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 214,6804,7.5,38.5,260,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell 309 King Cobra,6804,7.5,38.5,257,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 409/YAH-63,6690,7.5,37.86,226,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 427,2971,5.64,65.54,256,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 412,5897,7.01,38.2,226,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell CH-146 Griffon,5398,7.01,34.97,219,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 212,5080,7.32,30.18,195,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell UH-1H3 (StandardAero),5080,7.36,29.85,128,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell UH-1N,4763,7.315,28.33,200,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell AH-1W Super Cobra,4536,6.695,32.21,282,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell 204/205,4309,7.5,24.38,206,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell AH-1G Cobra,4309,6.7,30.55,276,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell UH-1H,4309,7.36,25.32,190,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 430,4200,6.5,31.64,247,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 230,3800,6.5,28.63,248,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 222,3742,6.06,32.43,220,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 429,3629,5.49,38.33,239,Normal/Econ,4,left,Open Source
+Bell Helicopter Textron,Bell 427,2971,5.64,29.73,256,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 48/H-12,2851,7.24,17.31,140,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 407,2722,5.33,30.5,213,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell OH-58 Kiowa,2495,5.34,27.85,204,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell ARH-70 Arapaho,2268,5.335,25.36,209,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 505,1699,5.64,17,232,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 206B,1451,5.08,17.9,220,Normal/Econ,2,left,Open Source
+Bell Helicopter Textron,Bell 47,1338,5.665,13.27,135,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell 47J,1338,5.665,13.27,146,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell UH-13R,1338,5.665,13.27,169,Normal/Econ,2,right,Open Source
+Bell Helicopter Textron,Bell YOH-4,1151,5.065,14.28,178,Normal/Econ,2,left,Open Source
+Boeing,Boeing Vertol YUH-61,8481,7.5,47.99,216,Normal/Econ,4,left,Open Source
+Boeing,Boeing–Sikorsky RAH-66 Comanche,7896,6.95,52.03,306,Normal/Econ,8,fenestron,Open Source
+Boeing,Boeing MH-139 Grey Wolf,7000,6.9,46.8,270,Normal/Econ,4,right,Open Source
+Boeing,Boeing A160 Hummingbird,2948,5.5,31.02,260,Normal/Econ,2,left,Open Source
+Boeing,Boeing AH-6,1610,4.17,29.47,250,Normal/Econ,2,left,Open Source
+Brantly,Brantly 305,1315,4.37,21.92,180,Normal/Econ,2,right,Open Source
+Breguet,Breguet G.11E,1300,4.3,11.19,185,Normal/Econ,0,coaxial,Open Source
+Bristol Aeroplane Company,Bristol Sycamore,2540,7.4,14.76,145,Normal/Econ,3,right,Open Source
+CH International (CHi International),Composite CHI KC 518 Adventourer,1542,4.509,24.14,250,Normal/Econ,8,fenestron,Open Source
+Changhe Aircraft Industries Corporation (CAIC),WZ-10,7200,6.5,54.24,230,Normal/Econ,4,right,Open Source
+Changhe Aircraft Industries Corporation (CAIC),Changhe Z11,2250,5.345,25.07,258,Normal/Econ,2,right,Open Source
+Cicaré Helicópteros S.A.,Cicaré CH-7,450,3.1,14.91,160,Normal/Econ,2,left,Open Source
+Cicaré Helicópteros S.A.,Cicaré CH-14 Aguilucho,1450,5,18.46,210,Normal/Econ,2,left,Open Source
+Citroën,Citroën RE-2,950,3.8,20.94,175,Normal/Econ,4,left,Open Source
+Curti Aerospace,Curti Zefhir,699,3.8,15.41,161.12,Normal/Econ,2,left,Open Source
+Denel Aeronautics/Atlas Aircraft Corporation,Denel Oryx,8000,7.8,41.86,260,Normal/Econ,5,right,Open Source
+Denel Aeronautics/Atlas Aircraft Corporation,Denel XH-1 Alpha,2200,5.51,23.07,185,Normal/Econ,3,right,Open Source
+Denel Aviation,Denel Rooivalk,8750,7.79,45.9,278,Normal/Econ,5,right,Open Source
+Doman,Doman LZ-5,2359,7.5,13.35,159,Normal/Econ,3,left,Open Source
+Dynali Helicopter,Dynali H2S,700,3.61,17.1,150,Normal/Econ,10,fenestron,Open Source
+Dynali Helicopter,Dynali H3 Easyflyer,500,3.57,12.49,130,Normal/Econ,4,right,Open Source
+EDM Aerotec,EDM Aerotec CoAX 2D/2R,450,3.25,6.78,150,Normal/Econ,0,coaxial,Open Source
+Fairchild Hiller,Fairchild Hiller FH-1100,1247,5.4,13.61,196,Normal/Econ,2,left,Open Source
+Harbin Aircraft Manufacturing Corporation,Harbin Z-20,10000,8,49.74,290,Normal/Econ,4,right,Open Source
+Harbin Aircraft Manufacturing Corporation,Harbin Z-5,7600,10.5,21.94,192,Normal/Econ,3,right,Open Source
+Harbin Aircraft Manufacturing Corporation,Harbin Z-19,4250,5.965,38.02,245,Normal/Econ,11,fenestron,Open Source
+Harbin Aircraft Manufacturing Corporation,Harbin Z-9,4100,5.97,36.62,260,Normal/Econ,11,fenestron,Open Source
+Helowerks,Helowerks HX-1 Wasp,544,3.505,14.1,130,Normal/Econ,4,fenestron,Open Source
+Higgins,Higgins EB-1,1155,4.875,15.47,200,Normal/Econ,2,right,Open Source
+Hillberg Helicopters,Hillberg Turbine Exec,674,3.81,14.78,209,Normal/Econ,2,right,Open Source
+Hillberg Helicopters,Hillberg EH1-01 RotorMouse,590,3.05,20.19,210,Normal/Econ,2,right,Open Source
+Hiller Aircraft Corporation,Hiller Ten99,1588,5.43,17.14,170,Normal/Econ,2,left,Open Source
+Hiller Aircraft Corporation,Hiller UH-12/OH-23,1225,5.4,13.37,132,Normal/Econ,2,right,Open Source
+Hindustan Aeronautics Limited,HAL Dhruv,5800,6.6,42.38,250,Normal/Econ,4,right,Open Source
+Hindustan Aeronautics Limited,HAL Prachand,5800,6.6,42.38,260,Normal/Econ,4,right,Open Source
+Hindustan Aeronautics Limited,HAL Light Utility Helicopter,3150,5.8,29.81,235,Normal/Econ,4,right,Open Source
+Hindustan Aeronautics Limited,HAL Cheetah/SA 315B Lama,1950,5.51,20.44,192,Normal/Econ,3,right,Open Source
+Hughes Helicopters,OH-6 Cayuse,1225,4.015,24.19,215,Normal/Econ,2,left,Open Source
+Hughes Helicopters,TH-55 Osage,757,3.85,16.26,130,Normal/Econ,2,left,Open Source
+Hungaro Copter Limited,Hungaro Copter,600,3.5,15.59,130,Normal/Econ,2,left,Open Source
+Industria Aeronautică Română,IAR 330,7400,7.5,41.88,271,Normal/Econ,5,right,Open Source
+Industria Aeronautică Română,IAR 316,2200,5.51,23.07,180,Normal/Econ,3,right,Open Source
+KAI,Surion,8709,7.9,44.42,298,Max,4,right,Open Source
+Kaman Aircraft,Kaman SH-2 Seasprite,5670,6.705,40.15,240,Normal/Econ,4,left,Open Source
+Kaman Aircraft,"Kaman K-1125 ""Huskie III""",4735,7.165,29.36,295,Normal/Econ,0,Intermeshing,Open Source
+Kaman Aircraft,Kaman HH-43,2948,7.17,18.29,180,Normal/Econ,0,Intermeshing,Open Source
+Kamov,Kamov Ka-31,12200,7.95,30.72,205,Normal/Econ,0,coaxial,Open Source
+Kamov,Kamov Ka-25BSh,7500,7.87,19.27,193,Normal/Econ,0,coaxial,Open Source
+Kamov,Kamov Ka-60,6500,6.75,45.41,290,Normal/Econ,10,fenestron,Open Source
+Kamov,Kamov Ka-26,3250,6.5,12.24,150,Normal/Econ,0,coaxial,Open Source
+Kamov,Kamov Ka-126,3250,6.5,12.24,160,Normal/Econ,0,coaxial,Open Source
+Kamov,Kamov Ka-115,1850,4.75,13.05,230,Normal/Econ,0,coaxial,Open Source
+Kamov,Kamov Ka-18,1480,4.98,9.5,120,Normal/Econ,0,coaxial,Open Source
+Kamov,Kamov Ka-15M,1410,4.98,9.05,125,Normal/Econ,0,coaxial,Open Source
+Kawasaki Heavy Industries,Kawasaki OH-1,4000,5.8,37.85,220,Normal/Econ,8,fenestron,Open Source
+Kawasaki Heavy Industries,Kawasaki KH-4,1293,5.66,12.85,140,Normal/Econ,2,right,Open Source
+Lada Land,Lada Land VM-01,830,4.5,13.05,140,Normal/Econ,2,right,Open Source
+Leonardo,Leonardo CH-149 Cormorant,14600,9.295,53.79,280,Normal/Econ,4,left,Open Source
+Leonardo,Leonardo Proteus,3000,5.5,31.57,300,Normal/Econ,10,fenestron,Open Source
+Lockheed,Lockheed Martin VH-71 Kestrel,15600,9.295,57.47,278,Normal/Econ,4,left,Open Source
+Lockheed,Lockheed AH-56 Cheyenne,11739,7.81,61.26,361,Normal/Econ,3,left,Open Source
+Lockheed,Lockheed XH-51,1860,5.335,20.8,260,Normal/Econ,2,right,Open Source
+Manzolini,Manzolini Libellula,650,4.5,5.11,90,Normal/Econ,0,coaxial,Open Source
+MD Helicopters,MH-6 Little Bird,1406,4.176,25.66,250,Normal/Econ,4,left,Open Source
+MD Helicopters,MD 500/530 Defender,1157,4.02275,22.76,217,Normal/Econ,2,left,Open Source
+Merckle Flugzeugbau,Merckle SM 67,1700,5.25,19.63,190,Normal/Econ,2,right,Open Source
+Messerschmitt-Bölkow-Blohm,MBB/Kawasaki BK 117,3350,5.5,35.25,250,Normal/Econ,2,left,Open Source
+Messerschmitt-Bölkow-Blohm,MBB Bo 105,2500,4.97,32.22,204,Normal/Econ,2,left,Open Source
+Messerschmitt-Bölkow-Blohm,Bölkow Bo 46,2000,5,25.46,256,Normal/Econ,4,left,Open Source
+Mil Helicopters,Mil Mi-6,44000,17.5,45.73,250,Normal/Econ,4,right,Open Source
+Mil Helicopters,Mil Mi-10,43700,17.5,45.42,180,Normal/Econ,4,right,Open Source
+Mil Helicopters,Mil Mi-14,14000,10.645,39.33,215,Normal/Econ,3,right,Open Source
+Mil Helicopters,Mil Mi-24/25/35,12000,8.65,51.05,260,Normal/Econ,3,left,Open Source
+Mil Helicopters,Mil Mi-4,7550,10.5,21.8,160,Normal/Econ,3,right,Open Source
+Mil Helicopters,Mil Mi-34S,1450,5,18.46,170,Normal/Econ,2,right,Open Source
+Mil Helicopters,Mil Mi-2,3700,7.25,22.41,185,Normal/Econ,2,right,Open Source
+Mil Helicopters,Mil Mi-1,2460,7.175,15.21,140,Normal/Econ,3,right,Open Source
+Mitsubishi Heavy Industries,Mitsubishi MH2000,4500,6.1,38.49,250,Normal/Econ,10,fenestron,Open Source
+NHIndustries,NHI NH90,10600,8.15,50.8,259,Normal/Econ,4,left,Open Source
+Northrop Grumman,MQ-8B Fire Scout,1430,4.2,25.8,200,Normal/Econ,2,left,Open Source
+PANHA,Panha 2091,4530,6.5,34.13,153,Normal/Econ,2,right,Open Source
+PZL,PZL SM-4 Latka,1000,5,12.73,115,Normal/Econ,2,right,Open Source
+PZL,PZL Kania,3550,7.279,21.33,178,Normal/Econ,2,right,Open Source
+Rotorcraft Ltd,Cierva CR-Twin,1564,5.03,9.84,193,Normal/Econ,0,coaxial,Open Source
+RotorWay International,RotorWay Exec 162F,680,3.81,14.91,153,Normal/Econ,2,right,Open Source
+Saunders Roe,Saro P.531,1724,4.955,22.35,175,Normal/Econ,2,right,Open Source
+Saunders Roe,Saro Skeeter,1043,4.875,13.97,171,Normal/Econ,2,left,Open Source
+Scheutzow,Scheutzow B,544,4.115,10.23,121,Normal/Econ,2,left,Open Source
+Schweizer Aircraft Corporation,Schweizer 330/333,1157,4.19,20.98,194,Normal/Econ,2,left,Open Source
+Schweizer Aircraft Corporation,Schweizer 300,930,4.09,17.7,124,Normal/Econ,2,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky CH-53E Super Stallion,33000,12,72.95,278,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky CH-54 Tarhe,21319,10.975,56.34,190,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky MH-53,20865,10.975,55.14,280,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky CH-53 Sea Stallion,19051,11.0085,50.04,280,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-64 Skycrane,19051,10.975,50.35,213,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky CH-37 Mojave,14061,10.975,37.16,190,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,CH-148 Cyclone,13000,8.74,54.17,254,Normal/Econ,4,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-67 Blackhawk,10002,9.45,35.65,220,Normal/Econ,5,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-70i,9979,8.18,47.47,276,Normal/Econ,4,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky HH-60 Pave Hawk,9979,8.025,49.32,294,Normal/Econ,4,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky SH-60 Seahawk,9926,8.18,47.22,234,Normal/Econ,4,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky MH-60 Jayhawk,9926,8.18,47.22,234,Normal/Econ,4,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky UH-3 Sea King,9752,9.45,34.76,219,Normal/Econ,5,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-60,9525,10.985,25.13,185,Normal/Econ,4,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky H-34 (S-58),6033,8.535,26.36,156,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-69,4990,5.485,26.4,202,Normal/Econ,0,coaxial,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-75,3842,6.5,28.95,256,Normal/Econ,4,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky HH-52 Seaguard (S-62),3765,8.08,18.36,158,Normal/Econ,2,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky H-19 (S-55),3402,8,16.92,137,Normal/Econ,2,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky X2,2404,4.025,23.62,463,Normal/Econ,0,coaxial,Open Source
+Sikorsky Aircraft Corporation,Sikorsky R-5/H-5,2200,7.315,13.09,130,Normal/Econ,3,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky XH-39,1525,5.335,17.05,222,Normal/Econ,3,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-434,1451,4.19,26.31,195,Normal/Econ,2,left,Open Source
+Sikorsky Aircraft Corporation,Sikorsky S-52,1225,5.03,15.41,154,Normal/Econ,2,right,Open Source
+Sikorsky Aircraft Corporation,Sikorsky R-4,1200,6,10.61,105,Normal/Econ,3,right,Open Source
+Silvercraft Italiana,Silvercraft SH-4,862,4.515,13.46,117,Normal/Econ,2,left,Open Source
+Westland Helicopters,Westland Westminter,14969,10.975,39.56,185,Normal/Econ,4,left,Open Source
+Westland Helicopters,Westland Wessex,6123,8.535,26.76,196,Normal/Econ,4,left,Open Source
+Westland Helicopters,Westland 30,5806,6.655,41.73,220,Normal/Econ,5,left,Open Source
+Westland Helicopters,Westland Lynx,4763,6.4,37.01,232,Normal/Econ,4,left,Open Source
+Westland Helicopters,Westland Whirldwind,3538,8.075,17.27,167,Normal/Econ,2,left,Open Source
+Westland Helicopters,Westland Widgeon,2676,7.495,15.16,130,Normal/Econ,3,left,Open Source
+Westland Helicopters,Westland Dragonfly,2663,7.5,15.07,137,Normal/Econ,3,left,Open Source
+Westland Helicopters,Westland Wasp,2495,4.915,32.88,178,Normal/Econ,2,left,Open Source
+Westland Helicopters,Westland Scout,2404,4.915,31.68,196,Normal/Econ,2,left,Open Source
+Youngcopter,Youngcopter Neo,640,3.85,13.74,185,Normal/Econ,0,notar,Open Source
