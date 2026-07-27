@@ -15,7 +15,7 @@ assistance. Current modules:
   exploration and cross-family comparison.
 """
 
-__version__ = "0.5.0"
+__version__ = "0.6.2"
 
 from .config import (
     CaseConfig, AirfoilSpec, FlowSpec, DataSpec, PipelineSpec,

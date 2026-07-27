@@ -298,6 +298,7 @@ def compare_families(df: pd.DataFrame,
                      features: Sequence[str],
                      target: str,
                      families: Optional[Sequence[str]] = None,
+                     progress=None,
                      **model_kwargs) -> tuple:
     """Fit every requested family on one common split; return a table.
 
@@ -311,7 +312,10 @@ def compare_families(df: pd.DataFrame,
     (table, models) : (pd.DataFrame, dict[str, SizingModel])
     """
     rows, models = [], {}
-    for fam in (families or FAMILIES):
+    fams = list(families or FAMILIES)
+    for i, fam in enumerate(fams):
+        if progress is not None:
+            progress(fam, i, len(fams))
         try:
             m = SizingModel(fam, **model_kwargs).fit(df, features, target)
             models[fam] = m

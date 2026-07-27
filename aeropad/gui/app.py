@@ -43,8 +43,9 @@ class AeropadApp(tk.Tk):
 
     def __init__(self) -> None:
         super().__init__()
-        self.title("aeropad — Full-Range Polar Reconstruction")
+        self.title("aeropad — Aircraft Preliminary Design Toolkit")
         self.geometry("1280x800")
+        self._set_icon()
         self.minsize(1080, 680)
 
         self.df: pd.DataFrame | None = None
@@ -52,6 +53,27 @@ class AeropadApp(tk.Tk):
         self._queue: queue.Queue = queue.Queue()
 
         self._build_layout()
+
+    def _set_icon(self) -> None:
+        import os
+        assets = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                              "assets")
+        try:
+            if os.name == "nt":
+                # Give the process its own taskbar identity, otherwise
+                # Windows groups the window under the generic Python icon.
+                import ctypes
+                ctypes.windll.shell32.\
+                    SetCurrentProcessExplicitAppUserModelID(
+                        "USTH.aeropad.gui")
+                self.iconbitmap(os.path.join(assets, "aeropad.ico"))
+            else:
+                img = tk.PhotoImage(
+                    file=os.path.join(assets, "aeropad_icon.png"))
+                self.iconphoto(True, img)
+                self._icon_ref = img   # keep a reference alive
+        except Exception:
+            pass   # icon is cosmetic; never block startup
 
     # ── Layout ───────────────────────────────────────────────────────
 
@@ -170,6 +192,15 @@ class AeropadApp(tk.Tk):
                         self.pipe_entries)
         self._entry_row(sec_route, "spacing", "Kriging spacing (deg)",
                         "20.0", self.pipe_entries)
+
+        row = ttk.Frame(sec_route)
+        row.pack(fill="x", pady=(1, 0))
+        ttk.Label(row, text="Stall-bracket stations", width=22).pack(
+            side="left")
+        self.var_bracket = tk.StringVar(value="auto")
+        ttk.Combobox(row, textvariable=self.var_bracket,
+                     state="readonly", values=("auto", "on", "off"),
+                     width=14).pack(side="right", fill="x", expand=True)
 
         # -- actions --------------------------------------------------
         sec_act = ttk.Frame(controls)
@@ -393,10 +424,13 @@ class AeropadApp(tk.Tk):
         self._log("Running reconstruction…", clear=True)
 
         route = self.var_route.get()
+        bracket = {"auto": None, "on": True,
+                   "off": False}[self.var_bracket.get()]
 
         def work():
             try:
-                res = reconstruct_polar(df, config, route=route)
+                res = reconstruct_polar(df, config, route=route,
+                                        bracket_stall=bracket)
                 self._queue.put(("ok", res, df, config))
             except Exception:
                 self._queue.put(("err", traceback.format_exc(),
@@ -556,6 +590,11 @@ class SizingTab(ttk.Frame):
         if "symbolic" not in fams:
             ttk.Label(sec3, text="(symbolic: PySR/Julia not detected)",
                       foreground="gray", font=("", 8)).pack(anchor="w")
+        else:
+            ttk.Label(sec3,
+                      text="(symbolic runs via Fit only — excluded "
+                           "from Compare all for speed)",
+                      foreground="gray", font=("", 8)).pack(anchor="w")
 
         # actions
         act = ttk.Frame(controls)
@@ -676,12 +715,19 @@ class SizingTab(ttk.Frame):
         self._log("Correlation heatmap drawn.", clear=True)
 
     def _fit(self) -> None:
-        self._run_threaded(mode="fit")
+        self._run_workers(mode="fit")
 
     def _compare(self) -> None:
-        self._run_threaded(mode="compare")
+        self._run_workers(mode="compare")
 
-    def _run_threaded(self, mode: str) -> None:
+    def _run_workers(self, mode: str) -> None:
+        """Run fits in worker *processes* so the UI never starves.
+
+        Python threads share the GIL: a GridSearchCV storm of small
+        numpy operations starves the Tk event loop ("Not Responding").
+        Worker processes isolate that completely, and one-future-per-
+        family gives natural progress reporting.
+        """
         if self.df is None:
             messagebox.showinfo("No data", "Load a dataset CSV first.")
             return
@@ -695,55 +741,118 @@ class SizingTab(ttk.Frame):
         df = self._coerced_df()
         family = self.var_family.get()
 
+        from ..sizing.models import FAMILIES
+        if mode == "fit":
+            fams = [family]
+        else:
+            # Symbolic regression is excluded from batch comparison by
+            # design: its evolutionary search (plus Julia compilation
+            # on the first-ever run) is an order of magnitude slower
+            # than the other families. Run it deliberately via Fit.
+            fams = [f for f in FAMILIES if f != "symbolic"]
+
+        try:
+            import concurrent.futures as cf
+            self._executor = cf.ProcessPoolExecutor(max_workers=1)
+            from ..sizing import worker
+            self._futures = {
+                self._executor.submit(worker.fit_family, f, df,
+                                      features, target): f
+                for f in fams}
+            engine = "process pool"
+        except Exception:
+            # Fallback: threads (responsiveness may suffer)
+            import threading
+            self._executor = None
+            self._futures = {}
+            self._thread_results: list = []
+
+            def run_all():
+                from ..sizing.worker import fit_family
+                for f in fams:
+                    self._thread_results.append(
+                        fit_family(f, df, features, target))
+
+            threading.Thread(target=run_all, daemon=True).start()
+            engine = "thread (fallback)"
+
+        self._mode = mode
+        self._n_total = len(fams)
+        self._results: list = []
         self.btn_fit.configure(state="disabled")
         self.btn_cmp.configure(state="disabled")
-        self._log(f"Running ({mode})…", clear=True)
+        note = ""
+        if family == "symbolic" and mode == "fit":
+            note = ("\nNote: PySR's first-ever run compiles its Julia "
+                    "backend and can take several minutes; subsequent "
+                    "runs are much faster.")
+        self._log(f"Running {mode} on {self._n_total} family(ies) "
+                  f"[{engine}]…{note}", clear=True)
+        self.after(300, self._poll_workers)
 
-        def work():
-            from ..sizing import SizingModel, compare_families
-            try:
-                if mode == "fit":
-                    m = SizingModel(family).fit(df, features, target)
-                    self._queue.put(("fit", m))
-                else:
-                    table, models = compare_families(df, features, target)
-                    self._queue.put(("compare", (table, models)))
-            except Exception:
-                self._queue.put(("err", traceback.format_exc()))
+    def _poll_workers(self) -> None:
+        if self._executor is not None:
+            done = [f for f in self._futures if f.done()]
+            for f in done:
+                fam = self._futures.pop(f)
+                try:
+                    self._results.append(f.result())
+                except Exception as exc:
+                    self._results.append((fam, None, str(exc)))
+                self._log(f"  [{len(self._results)}/{self._n_total}] "
+                          f"{fam}: "
+                          f"{'ok' if self._results[-1][1] else 'failed'}")
+            finished = not self._futures
+        else:
+            self._results = list(self._thread_results)
+            finished = len(self._results) >= self._n_total
 
-        threading.Thread(target=work, daemon=True).start()
-        self.after(200, self._poll)
-
-    def _poll(self) -> None:
-        try:
-            kind, payload = self._queue.get_nowait()
-        except queue.Empty:
-            self.after(200, self._poll)
+        if not finished:
+            self.after(400, self._poll_workers)
             return
+
+        if self._executor is not None:
+            self._executor.shutdown(wait=False)
+            self._executor = None
         self.btn_fit.configure(state="normal")
         self.btn_cmp.configure(state="normal")
+        self._finish_workers()
 
-        if kind == "err":
-            self._log("FAILED:\n" + payload)
+    def _finish_workers(self) -> None:
+        ok = {fam: m for fam, m, err in self._results if m is not None}
+        errs = {fam: err for fam, m, err in self._results
+                if m is None}
+
+        if not ok:
+            self._log("All fits failed:\n" + "\n".join(
+                f"  {f}: {e}" for f, e in errs.items()))
             return
-        if kind == "fit":
-            self.model = payload
+
+        if self._mode == "fit":
+            self.model = next(iter(ok.values()))
             self._log("── Fit result ──", clear=True)
             self._log(self.model.summary())
             self._draw_fit()
             self._build_predict_entries()
-        else:
-            table, models = payload
-            best = table["R2_test"].astype(float).idxmax()
-            self.model = models.get(best)
-            self._log("── Family comparison ──", clear=True)
-            cols = ["R2_test", "RMSE_test", "MAE_test"]
-            self._log(table[cols].round(4).to_string())
-            self._log(f"\nBest by test R²: {best} "
-                      f"(kept as active model for prediction)")
-            self._draw_compare(table)
-            if self.model is not None:
-                self._build_predict_entries()
+            return
+
+        # compare: assemble the table from per-family metrics
+        rows = []
+        for fam, m in ok.items():
+            rows.append({k: v for k, v in m.metrics.items()
+                         if k != "best_params"})
+        table = pd.DataFrame(rows).set_index("family")
+        best = table["R2_test"].astype(float).idxmax()
+        self.model = ok[best]
+        self._log("── Family comparison ──", clear=True)
+        self._log(table[["R2_test", "RMSE_test", "MAE_test"]]
+                  .round(4).to_string())
+        for fam, err in errs.items():
+            self._log(f"  {fam}: SKIPPED ({err})")
+        self._log(f"\nBest by test R²: {best} "
+                  f"(kept as active model for prediction)")
+        self._draw_compare(table)
+        self._build_predict_entries()
 
     # ── drawing ──────────────────────────────────────────────────────
 

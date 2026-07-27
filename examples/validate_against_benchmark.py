@@ -12,6 +12,12 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
 
+try:
+    from tqdm import tqdm
+except ImportError:
+    def tqdm(x, **k):
+        return x
+
 from aeropad import (CaseConfig, AirfoilSpec, FlowSpec, DataSpec,
                      PipelineSpec, reconstruct_polar)
 
@@ -74,7 +80,7 @@ fails, checked = [], 0
 print("=" * 78)
 print("SEMI-EMPIRICAL VALIDATION (4 methods × 10 cases × CL/CD = 80 metrics pairs)")
 print("=" * 78)
-for airfoil, Ma, fname, cfg_fn in CASES:
+for airfoil, Ma, fname, cfg_fn in tqdm(CASES, desc='semi-empirical cases'):
     df = load(fname)
     for method in ('battisti', 'aerodas', 'montgomerie', 'lindenburg'):
         config = cfg_fn(Ma, method)
@@ -111,7 +117,7 @@ ref_k = pd.concat([
 ])
 kfails, kchecked = [], 0
 
-for airfoil, Ma, fname, cfg_fn in CASES:
+for airfoil, Ma, fname, cfg_fn in tqdm(CASES, desc='kriging cases'):
     df = load(fname)
     # GPR route is flip-neutral (stationary kernels); run unflipped to
     # match the original scripts' fold assignments exactly.
